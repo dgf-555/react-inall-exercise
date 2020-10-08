@@ -1,3 +1,41 @@
 .home {
   color: if((true), red, yellow);
 }
+
+#title {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hero-image.png");
+  background-size: cover;
+  background-position: bottom center;
+  padding-top: 200px;
+}
+#title p {
+  color: white;
+  font-size: 3em;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+#links {
+  height: 600px;
+  background-color: rgb(182, 182, 182);
+}
+#links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.image-size {
+  height: 150px;
+  width: 150px;
+}
+
+#links ul li a,
+#links ul li a:visited {
+  display: block;
+  color: white;
+  font-size: 1.7em;
+  font-weight: 300;
+  text-decoration: underline;
+}
